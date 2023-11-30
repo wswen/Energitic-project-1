@@ -1,0 +1,7 @@
+# Energitic-project-1
+This study confronts the crucial challenge of monitoring the State of Health (SOH) of Lithium-Ion Batteries (LIBs) in response to the escalating demand for renewable energy systems and the imperative to reduce CO2 emissions. 
+Our research introduces innovative deep learning (DL) models, namely E-LSTM and CNN-LSTM, each tailored to forecast battery SOH.
+E-LSTM integrates an encoder for dimensionality reduction and a Long Short-Term Memory (LSTM) model to capture data dependencies for precise SOH prediction. 
+CNN-LSTM, on the other hand, employs Convolutional Neural Network (CNN) layers for encoding followed by LSTM layers. 
+Significantly, we prioritize model interpretability by employing a game theoretic approach known as SHapley Additive exPlanations (Shap) to elucidate the output of our models. Furthermore, we develop a method based on pattern mining, synergizing with our model, to identify patterns contributing to abnormal SOH deterioration. These insights are presented through informative plots. Our proposed approach relies on the battery dataset published by the Massachusetts Institute of Technology (MIT) and showcases promising results in accurately predicting SOH values.
+This contribution significantly enhances the robust and reliable monitoring of battery health within renewable energy systems, underscoring the potential impact of our approach in addressing current challenges in the field.

@@ -45,4 +45,129 @@ To gain insights into model predictions and enhance interpretability, execute th
 
 #### 5. Abnormal SOH Drop Detection
 In this phase, we use the E-LSTM model to detect abnormal decreases in SOH. Follow the instructions in the 'Abnormal_SOH_Detection.ipynb' notebook. This notebook will leverage pattern mining techniques to identify and visualize patterns contributing to abnormal SOH deterioration.
+## Results
+Table 1: E-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th rowspan="1"></th>
+      <th colspan="2">(10,10)</th>
+      <th colspan="2">(25,25)</th>
+      <th colspan="2">(25,50)</th>
+    </tr>
+    <tr style="text-align: center;">
+      <th>Metric</th>
+      <th>Mean</th>
+      <th>Std</th>
+      <th>Mean</th>
+      <th>Std</th>
+      <th>Mean</th>
+      <th>Std</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>MAE (10^{-2})</th>
+      <td>0.62</td>
+      <td>0.08</td>
+      <td>0.83</td>
+      <td>0.07</td>
+      <td>0.89</td>
+      <td>0.05</td>
+    </tr>
+    <tr>
+      <th>MSE (10^{-3})</th>
+      <td>0.09</td>
+      <td>0.03</td>
+      <td>0.16</td>
+      <td>0.02</td>
+      <td>0.19</td>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <th>RMSE (10^{-2})</th>
+      <td>0.94</td>
+      <td>0.54</td>
+      <td>1.26</td>
+      <td>0.44</td>
+      <td>1.37</td>
+      <td>0.44</td>
+    </tr>
+    <tr>
+      <th>MAPE</th>
+      <td>0.66</td>
+      <td>0.09</td>
+      <td>0.89</td>
+      <td>0.07</td>
+      <td>0.95</td>
+      <td>0.05</td>
+    </tr>
+  </tbody>
+</table>
+Table 1: CNN-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th rowspan="1"></th>
+      <th colspan="2">(10,10)</th>
+      <th colspan="2">(25,25)</th>
+      <th colspan="2">(25,50)</th>
+    </tr>
+    <tr style="text-align: center;">
+      <th>Metric</th>
+      <th>Mean</th>
+      <th>Std</th>
+      <th>Mean</th>
+      <th>Std</th>
+      <th>Mean</th>
+      <th>Std</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>MAE (10^{-2})</th>
+      <td>0.65</td>
+      <td>0.13</td>
+      <td>1.11</td>
+      <td>0.23</td>
+      <td>1.19</td>
+      <td>0.18</td>
+    </tr>
+    <tr>
+      <th>MSE (10^{-3})</th>
+      <td>0.12</td>
+      <td>0.06</td>
+      <td>0.35</td>
+      <td>0.12</td>
+      <td>0.35</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <th>RMSE (times10^{-2})</th>
+      <td>1.09</td>
+      <td>0.77</td>
+      <td>1.87</td>
+      <td>1.07</td>
+      <td>1.87</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <th>MAPE</th>
+      <td>0.69</td>
+      <td>0.14</td>
+      <td>1.25</td>
+      <td>0.24</td>
+      <td>1.27</td>
+      <td>0.20</td>
+    </tr>
+  </tbody>
+</table>
+Figure 1: SOH prediction using 10-step input window for 10-
+step output window.
+[results1.pdf](https://github.com/arslimane/Energitic-project-1/files/13749426/results1.pdf)
+
+
+## Contact
+If you have any issues or questions about this repo, feel free to contact slimane.arbaoui@insa-strasbourg.fr.
+
 

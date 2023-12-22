@@ -7,7 +7,7 @@ Significantly, we prioritize model interpretability by employing a game theoreti
 This contribution significantly enhances the robust and reliable monitoring of battery health within renewable energy systems, underscoring the potential impact of our approach in addressing current challenges in the field.
 
 ## Introduction
-This repo contains code for the paper A Dual Approach for SOH Prediction and Event Detection
+This repo contains code for the paper: A Dual Approach for SOH Prediction and Event Detection
 ```latex
 @article{slimane2024,
   title={A Dual Approach for SOH Prediction and Event Detection},
@@ -68,8 +68,8 @@ Table 1: E-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
   <tbody>
     <tr>
       <th>MAE (10^{-2})</th>
-      <td>0.62</td>
-      <td>0.08</td>
+      <td>0.86</td>
+      <td>0.06</td>
       <td>0.83</td>
       <td>0.07</td>
       <td>0.89</td>
@@ -77,8 +77,8 @@ Table 1: E-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
     </tr>
     <tr>
       <th>MSE (10^{-3})</th>
-      <td>0.09</td>
-      <td>0.03</td>
+      <td>0.17</td>
+      <td>0.02</td>
       <td>0.16</td>
       <td>0.02</td>
       <td>0.19</td>
@@ -86,8 +86,8 @@ Table 1: E-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
     </tr>
     <tr>
       <th>RMSE (10^{-2})</th>
-      <td>0.94</td>
-      <td>0.54</td>
+      <td>1.30</td>
+      <td>0.44</td>
       <td>1.26</td>
       <td>0.44</td>
       <td>1.37</td>
@@ -95,8 +95,8 @@ Table 1: E-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
     </tr>
     <tr>
       <th>MAPE</th>
-      <td>0.66</td>
-      <td>0.09</td>
+      <td>0.91</td>
+      <td>0.06</td>
       <td>0.89</td>
       <td>0.07</td>
       <td>0.95</td>
@@ -126,8 +126,8 @@ Table 1: CNN-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
   <tbody>
     <tr>
       <th>MAE (10^{-2})</th>
-      <td>0.65</td>
-      <td>0.13</td>
+      <td>0.90</td>
+      <td>0.08</td>
       <td>1.11</td>
       <td>0.23</td>
       <td>1.19</td>
@@ -135,8 +135,8 @@ Table 1: CNN-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
     </tr>
     <tr>
       <th>MSE (10^{-3})</th>
-      <td>0.12</td>
-      <td>0.06</td>
+      <td>0.22</td>
+      <td>0.03</td>
       <td>0.35</td>
       <td>0.12</td>
       <td>0.35</td>
@@ -144,8 +144,8 @@ Table 1: CNN-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
     </tr>
     <tr>
       <th>RMSE 10^{-2})</th>
-      <td>1.09</td>
-      <td>0.77</td>
+      <td>1.40</td>
+      <td>0.54</td>
       <td>1.87</td>
       <td>1.07</td>
       <td>1.87</td>
@@ -153,8 +153,8 @@ Table 1: CNN-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
     </tr>
     <tr>
       <th>MAPE</th>
-      <td>0.69</td>
-      <td>0.14</td>
+      <td>0.96</td>
+      <td>0.09</td>
       <td>1.25</td>
       <td>0.24</td>
       <td>1.27</td>

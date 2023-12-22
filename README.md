@@ -143,7 +143,7 @@ Table 1: CNN-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
       <td>0.09</td>
     </tr>
     <tr>
-      <th>RMSE (times10^{-2})</th>
+      <th>RMSE 10^{-2})</th>
       <td>1.09</td>
       <td>0.77</td>
       <td>1.87</td>
@@ -164,10 +164,70 @@ Table 1: CNN-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
 </table>
 Figure 1: SOH prediction using 10-step input window for 10-
 step output window.
-[results1.pdf](https://github.com/arslimane/Energitic-project-1/files/13749426/results1.pdf)
+<br>
+<img  
+  src="https://github.com/arslimane/Energitic-project-1/assets/60701015/4c23b33b-d892-4d87-b01d-f166da32862c" 
+  alt="Alt text" 
+  title="Optional title" 
+  style="width: 400px"
+  >
+  <br>
+  Figure 2: The average contribution of each feature in the
+model’s prediction using E-LSTM.
+<br>
+<img  
+  src="https://github.com/arslimane/Energitic-project-1/assets/60701015/5a21e626-3fa8-4554-9b00-95833fb32da5" 
+  alt="Alt text" 
+  title="Optional title" 
+  style="width: 400px"
+  >
+  <br>
+  Figure 3: SOH drop down events (low).
+  <br>
+<img  
+  src="https://github.com/arslimane/Energitic-project-1/assets/60701015/71921386-17d6-46e8-88a8-1b2b96848567" 
+  alt="Alt text" 
+  title="Optional title" 
+  style="width: 400px"
+  >
+ <br>
+  Figure 4: SOH drop down events (medium).
+  <br>
+<img  
+  src="https://github.com/arslimane/Energitic-project-1/assets/60701015/30323614-cb15-463c-8aea-330dc70698e4" 
+  alt="Alt text" 
+  title="Optional title" 
+  style="width: 400px"
+  >
+ <br>
+  Figure 5: SOH drop down events (high).
+    <br>
+<img  
+  src="https://github.com/arslimane/Energitic-project-1/assets/60701015/7784ef32-9d63-4047-8c74-36b7ff20725a" 
+  alt="Alt text" 
+  title="Optional title" 
+  style="width: 400px"
+  >
+ <br>
+  Figure 6: Simple representation of the events
+and the data related to them.
+   <br>
+<img  
+  src="https://github.com/arslimane/Energitic-project-1/assets/60701015/5f0a202e-1ec8-4e1a-a33f-2f249a4bc8bc" 
+  alt="Alt text" 
+  title="Optional title" 
+  style="width: 400px"
+  >
+
+
+
+  
+
+
 
 
 ## Contact
 If you have any issues or questions about this repo, feel free to contact slimane.arbaoui@insa-strasbourg.fr.
+
 
 

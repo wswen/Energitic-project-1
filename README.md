@@ -13,7 +13,7 @@ This contribution significantly enhances the robust and reliable monitoring of b
      + ['2017-06-30_batchdata_updated_struct_errorcorrect.mat']
      + ['2018-04-12_batchdata_updated_struct_errorcorrect.mat']
      
-- Execute the 'loading_data_MIT.ipynb' notebook, ensuring that the 'path' variable is set to the repository containing the downloaded files.
+- Execute the 'loading_data_MIT.ipynb' notebook, ensuring that the 'path_to_file' variable is set to the repository containing the downloaded files.
 
 #### \2. Prepare the Data
 Execute the 'data_preparing_MIT.ipynb' notebook to create an encoder for your data. This step is crucial for data preprocessing and dimensionality reduction.

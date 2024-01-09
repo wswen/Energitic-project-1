@@ -104,7 +104,7 @@ Table 1: E-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
     </tr>
   </tbody>
 </table>
-Table 1: CNN-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
+Table 2: CNN-LSTM performance results, with MAE, MSE, RMSE, and MAPE.
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: center;">

@@ -12,7 +12,7 @@ This repo contains code for the paper: A Dual Approach for SOH Prediction and Ev
 @article{slimane2024,
   title={A Dual Approach for SOH Prediction and Event Detection},
   author={Slimane Arbaoui, Ahmed Samet, Ali Ayadi, Tedjani Mesbahi, Romuald Boné},
-  journal={Energy and AI:2666-5468},
+  journal={Energy and Storage:2352-1538},
   year={2024}
 }
 ```
